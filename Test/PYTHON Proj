@@ -1,0 +1,21 @@
+def seriesConnection (a,b):
+   series = a+ b
+   print("series connection of R¹ ,R² is",series)
+
+def parallelconnection (a,b):
+   parallel = (a*b)/(a+b)
+   if (a!=0 and b!=0):
+      print("parallel connection of R¹ and R² is",parallel)
+   else:
+      if(a==0):
+         print("current not flows form R¹ and R²")
+      if(b==0):
+         print("current not flows form R¹ and R²")
+   print("Whole circuit is short circuitcircuited")
+
+a =int(input("enter R¹ value"))
+b= int(input("enter R² value"))
+seriesConnection(a,b)
+parallelconnection(a,b)
+
+
