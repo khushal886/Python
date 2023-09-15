@@ -34,9 +34,9 @@ def parallelconnection (a,b):
    if (a!=0 and b!=0):
       print("parallel connection of R¹ and R² is",parallel)
    else:
-      if(a==0):
+      if a==0:
          print("current not flows from R¹ because of it short ckt.")
-      if(b==0):
+      if b==0:
          print("current not flows form R²  because of it short ckt")
       print("Whole circuit is short circuited in parallel case")
 
