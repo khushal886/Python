@@ -1,3 +1,2 @@
-a=3 
-print("khushal,a",a)
-
+a = 3
+print("khushal,a", a)
