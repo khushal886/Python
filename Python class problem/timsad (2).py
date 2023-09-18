@@ -1,5 +1,4 @@
 import time
-#from time import gmtime
 a = time.strftime('%H:%M:%S')
 b= int(time.strftime ('%H'))
 print(a)
