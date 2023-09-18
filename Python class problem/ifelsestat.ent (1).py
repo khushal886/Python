@@ -1,21 +1,21 @@
 a = int(input("Enter your age:"))
 print("your age is:", a)
-if (a >= 18):
+if a >= 18:
     print("you are elpigible for voteing")
     print("yes")
 
-    if (a >= 22):
+    if a >= 22:
         print("you are also eligiable for marriage ")
-    elif (18 <= a <= 22):
-        print("you are not eligiable for marriage but you are eligiable for voting")
+    elif 18 <= a <= 22:
+        print(
+            "you are not eligiable for marriage but you are eligiable for voting"
+        )
 
     else:
         print("you are not eligiable for marriage ")
 
 else:
     print("you can not vote and marriage ")
-
-
 """
 a = int(input("Enter your age:"))
 print("Your age is:", a)
