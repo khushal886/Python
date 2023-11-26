@@ -1,7 +1,6 @@
 def calculateGmean(a, b):
     mean = (a*b)/(a+b)
     print(mean)
-ppl gvhb
 def isGreater(a, b):
      if(a>b):
         print("First number is greater")
